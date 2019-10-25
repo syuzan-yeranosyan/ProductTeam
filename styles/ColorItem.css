@@ -1,0 +1,73 @@
+.colorItemContainer{
+	height:25px;
+	/*background:pink;*/
+	margin-bottom:4px;
+}
+.colorItemCheckBoxContainer{
+	display: block;
+    position: relative;
+    left: 6px;
+    /*bottom: 32px;*/
+}
+.colorItemCheckBox{
+	position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.colorItemCheckmark{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.colorItemCheckBox:checked ~ .colorItemCheckmark {
+    background-color: #0c243e;
+}
+
+.colorItemCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.colorItemCheckBox:checked ~ .colorItemCheckmark::after {
+    display: block;
+}
+
+.colorItemCheckBoxContainer .colorItemCheckmark:after {
+    left: 3px;
+    top: 0px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.colorItemName{
+	display:inline-block;
+	margin: 0;
+	margin-left:26px;
+    font-family: Roboto;
+    font-size: 14px;
+	line-height: 1.29;
+    color: #102542;
+}
+.colorItemCount{
+	display:inline-block;
+	margin: 0;
+	float:right;
+    font-family: Roboto;
+    font-size: 14px;
+	line-height: 1.29;
+    color: black;
+}

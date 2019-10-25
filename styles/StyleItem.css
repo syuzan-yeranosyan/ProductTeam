@@ -1,0 +1,79 @@
+.styleItemContainer {
+    width: 135px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.styleItemContainer:nth-of-type(odd) {
+    margin-right: 12.4px;
+}
+
+.styleItemImageContainer {
+    height: 134px;
+    position: relative;
+    margin-bottom: 8.6px;
+    box-sizing: border-box;
+}
+
+.styleItemImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.styleItemImageCheckBoxContainer {
+    display: block;
+    position: relative;
+    left: 6px;
+    bottom: 32px;
+}
+
+.styleItemImageCheckBox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.styleItemImageCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+}
+
+.styleItemImageCheckBox:checked ~ .styleItemImageCheckmark {
+    background-color: #0c243e;
+}
+
+.styleItemImageCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.styleItemImageCheckBox:checked ~ .styleItemImageCheckmark::after {
+    display: block;
+}
+
+.styleItemImageCheckBoxContainer .styleItemImageCheckmark:after {
+    left: 7px;
+    top: 4px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.styleItemName {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #102542;
+}

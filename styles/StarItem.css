@@ -1,0 +1,10 @@
+.starItemContainer{
+	display: inline-block;
+}
+.starsIsDisplayedIconContainer{
+	display: inline-block;
+    margin: 0;
+    color: #adb5bd;
+    font-size: 23px;
+    margin-left:1.5px;
+}

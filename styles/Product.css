@@ -1,0 +1,121 @@
+.productContainer {
+    width: 240px;
+    /*height: 410px;*/
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 24px 24px 0;
+}
+
+.productImage {
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    height: auto; 
+    object-fit: cover;   
+}
+
+.productDetailsContainer {
+    margin-top: 13.5px;
+    margin-left: 11px;
+    margin-right: 15px;
+    display:inline-block;
+}
+
+.productName {
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.31;
+    color: #102542;
+    margin-bottom: 0;
+}
+
+.productStarContainer {
+    margin-top: 0;
+}
+
+.productStar {
+    -webkit-text-stroke: 2.6px #fe5f55;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #fe5f55;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.productStar:nth-of-type(4), .productStar:nth-of-type(5){
+    -webkit-text-stroke: 2.6px #aaabbc;
+    color: #aaabbc;
+}
+
+.productStarNumber {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #0c243e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.productShippingContainer {
+    margin-top: 13.5px;
+}
+
+.productShippingContainer > i {
+    font-size: 12px;
+    color: #68697b;
+    margin-right: 5px;
+}
+
+.shippingText {
+    font-size: 13px;
+    color: #68697b;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.33;
+}
+
+.productPrice {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.35;
+    color: #fe5f55;
+    margin-top: 10.5px;
+    margin-bottom: 0;
+}
+
+.productPrice > sup {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.productOptionsContainer {
+    /*font-family: sans-serif;*/
+}
+
+.productOptions {
+    font-size: 15px;
+    line-height: 1.29;
+    color: #636471;
+    margin-top: 11px;
+    margin-bottom: 26.5px;
+    display: inline-block;
+}
+
+.productOptionsIconContainer {
+    line-height: 1.29;
+    color: #636471;
+    margin-top: 11px;
+    margin-bottom: 26.5px;
+    display: inline-block;
+    float: right;
+}
+
+.productOptionsIcon {
+    font-size: 12px;
+}

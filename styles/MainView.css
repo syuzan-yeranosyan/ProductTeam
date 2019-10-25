@@ -1,0 +1,64 @@
+.mainViewContainer {
+    background-color: #ebeff7;
+    padding: 33px 40px 20.5px 33px;
+    width:auto;
+}
+@media only screen and (max-width: 701px) {
+.facetsContainer{
+  	/*display:none;*/
+ }
+
+.FilterButton{
+  	display:inline-block;
+  	float:right;
+  	margin-right:15px;
+}
+.New-Arrival{
+	margin-left:-70px;
+	 font-size: 0.8rem;
+	 font-weight:bold;	
+}
+.results{
+	vertical-align: top;
+    float: left;
+}
+
+
+.productListContainer{
+  	width:100%;
+}
+.productImageContainer,.productDetailsContainer{
+	display:inline-block!important;
+	height:100%;
+	position:relative;
+	width:48%;
+	padding:0px;
+	margin:0px;
+}
+.productDetailsContainer{
+	box-sizing:border-box;
+	padding:0px 0 0 10px;
+	position:absolute;
+}
+.productImageContainer > img {
+	width:100%;
+	object-fit:fill;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.productContainer {
+	border-radius: 10px;
+	position:relative;
+    width: 100% !important;
+    display: block;
+    height:200px;
+}
+.productName {
+     font-size: 0.7rem;
+    }
+.productShippingContainer {
+    margin-top:10px;
+}
+
+}
