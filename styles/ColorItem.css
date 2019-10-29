@@ -57,17 +57,18 @@
 	display:inline-block;
 	margin: 0;
 	margin-left:26px;
-    font-family: Roboto;
-    font-size: 14px;
+    font-size: 13px;
 	line-height: 1.29;
-    color: #102542;
+    color: #6e6e7c;
+    font-weight: 400;
+    vertical-align: top;
 }
 .colorItemCount{
 	display:inline-block;
 	margin: 0;
 	float:right;
-    font-family: Roboto;
     font-size: 14px;
+    font-weight: 500;
 	line-height: 1.29;
-    color: black;
+    color: #102542;
 }

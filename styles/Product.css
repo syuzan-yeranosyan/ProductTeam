@@ -5,30 +5,31 @@
     border-radius: 3px;
     display: inline-block;
     margin: 0 24px 24px 0;
+    box-shadow: 0 2px 8px 0 rgba(19, 33, 66, 0.07);
 }
 
 .productImage {
-    border-radius: 10px 0px 0px 10px;
     width: 100%;
     height: auto; 
-    object-fit: cover;   
+    object-fit: cover;
+    border-radius: 3px 3px 0 0; 
 }
 
 .productDetailsContainer {
-    margin-top: 13.5px;
-    margin-left: 11px;
-    margin-right: 15px;
-    display:inline-block;
+    margin: 13.5px 11px 0 ;
+    /*display:inline-block;*/
 }
 
 .productName {
     height: 40px;
-    font-family: sans-serif;
-    font-size: 0.9rem;
+    min-height:40px;
+    font-family: "Roboto";
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.31;
     color: #102542;
     margin-bottom: 0;
+    text-transform: capitalize;
 }
 
 .productStarContainer {
@@ -53,8 +54,9 @@
 }
 
 .productStarNumber {
-    font-family: sans-serif;
+    font-family: 'Roboto';
     font-size: 12px;
+    font-weight: 400;
     color: #0c243e;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -72,17 +74,15 @@
 }
 
 .shippingText {
-    font-size: 13px;
+    font-size: 12px;
     color: #68697b;
-    font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.33;
 }
 
 .productPrice {
-    font-family: sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.25rem;
+    font-weight: 400;
     line-height: 1.35;
     color: #fe5f55;
     margin-top: 10.5px;
@@ -91,7 +91,10 @@
 
 .productPrice > sup {
     font-size: 12px;
-    font-weight: bold;
+    vertical-align: text-top;
+    top: 2px;
+    position: relative;
+    padding: 0 2px;
 }
 
 .productOptionsContainer {
@@ -99,7 +102,7 @@
 }
 
 .productOptions {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.29;
     color: #636471;
     margin-top: 11px;
@@ -110,8 +113,7 @@
 .productOptionsIconContainer {
     line-height: 1.29;
     color: #636471;
-    margin-top: 11px;
-    margin-bottom: 26.5px;
+    margin: 11px 3px 26.5px 0;
     display: inline-block;
     float: right;
 }

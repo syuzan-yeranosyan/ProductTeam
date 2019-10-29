@@ -11,12 +11,13 @@
 .FilterButton{
   	display:inline-block;
   	float:right;
-  	margin-right:15px;
+  	/*margin-right:15px;*/
 }
 .New-Arrival{
-	margin-left:-70px;
-	 font-size: 0.8rem;
-	 font-weight:bold;	
+	margin-left:-80px;
+	 font-size: 1.125rem;
+	 font-weight:500;
+	 margin-top: 18px;	
 }
 .results{
 	vertical-align: top;
@@ -27,6 +28,9 @@
 .productListContainer{
   	width:100%;
 }
+.productImage {
+    border-radius: 10px 0px 0px 10px;
+}
 .productImageContainer,.productDetailsContainer{
 	display:inline-block!important;
 	height:100%;
@@ -35,6 +39,10 @@
 	padding:0px;
 	margin:0px;
 }
+.productOptions {
+    font-size: 0.8rem;
+    }
+
 .productDetailsContainer{
 	box-sizing:border-box;
 	padding:0px 0 0 10px;
@@ -60,5 +68,32 @@
 .productShippingContainer {
     margin-top:10px;
 }
-
+.rangeInput {
+    width: 40px;
+    height: 36px;
 }
+.priceRangeContainer {
+    width: -webkit-fill-available;
+}
+.colorsIsShowedIconContainer {
+
+    margin-left: 6px;
+    font-size: 0.8rem;
+}
+.colorsIsDisplayedIconContainer {
+	font-size: 0.8rem;
+	margin-top: 7px;
+}
+
+.colorItemCheckBoxContainer {
+     display: inline-block; 
+}
+.rangeButton {
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 420px) {
+.rangeInputLabel {
+  	display:block;
+  	margin-bottom: 10px;
+ }
